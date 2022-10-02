@@ -14,6 +14,12 @@ SHOW DATABASES;
 CREATE DATABASE database_name;
 ```
 
+### Create Databases
+```sql
+USE database_name;;
+```
+
+
 ### Show Table (query)
 ```sql
 SELECT * FROM table_name;
