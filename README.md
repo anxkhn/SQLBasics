@@ -1,5 +1,5 @@
 # SQLBasics
-A repo for basic SQL Commands and for storing Lab Assignments.
+A repo for basic MySQL Commands and for storing Lab Assignments.
 
 ### Show Databases
 
@@ -14,6 +14,7 @@ CREATE DATABASE database_name;
 ```
 
 ### Use Databases
+
 ```sql
 USE database_name;
 ```
@@ -39,6 +40,11 @@ CREATE TABLE table_name (
     column3 datatype,
    ....
 );
+```
+### Describe Structure of a Table
+
+```sql
+DESCRIBE table_name;
 ```
 
 ### Drop Table
@@ -73,7 +79,7 @@ ALTER COLUMN column_name datatype;
 ```
 
 
-### Constrains
+### Constraints
 
 ```sql
 CREATE TABLE Persons (
@@ -87,7 +93,7 @@ CREATE TABLE Persons (
 );
 ```
 
-### Constrains - Foreign Key
+### Constraints - Foreign Key
 
 ```sql
 CREATE TABLE Orders (
