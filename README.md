@@ -14,9 +14,9 @@ SHOW DATABASES;
 CREATE DATABASE database_name;
 ```
 
-### Create Databases
+### Use Databases
 ```sql
-USE database_name;;
+USE database_name;
 ```
 
 
