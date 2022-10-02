@@ -78,7 +78,7 @@ ALTER COLUMN column_name datatype;
 
 ```sql
 CREATE TABLE Persons (
-    ID int PRIMARY,
+    ID int PRIMARY KEY,
     FirstName varchar(255) NOT NULL,
     AadharNo int UNIQUE,
     City varchar(255) DEFAULT 'Mumbai',
