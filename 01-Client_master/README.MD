@@ -28,6 +28,6 @@ INSERT INTO Client_master VALUES ('C001','Ivan Bayross',' ',' ','Bombay',400054,
 INSERT INTO Client_master VALUES ('C002','Vandana Saitwal',' ',' ','Madras',780001, 'Tamil Nadu',0);
 INSERT INTO Client_master VALUES ('C003','Pramada Jaguste', ' ', ' ', 'Bombay', 400057, 'Maharashtra', 5000);
 INSERT INTO Client_master VALUES ('C004','Basu Navindgi', ' ', ' ', 'Bombay', 400056, 'Maharashtra',0);
-INSERT INTO Client_master VALUES ( 'C005','Ravi Sreedharam',' ', ' ', 'Delhi', 110001, ' ',2000);
-INSERT INTO Client_master VALUES ( 'C006','Rukmini',' ', ' ', 'Bombay', 400050, 'Maharashtra',0);
+INSERT INTO Client_master VALUES ('C005','Ravi Sreedharam',' ', ' ', 'Delhi', 110001, ' ',2000);
+INSERT INTO Client_master VALUES ('C006','Rukmini',' ', ' ', 'Bombay', 400050, 'Maharashtra',0);
 ```
