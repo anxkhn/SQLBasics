@@ -1,4 +1,4 @@
-### Table Name : Client Master
+### Table Name : Product Master
 
 Description : Use to store information about products.
 <br><br>
@@ -8,18 +8,18 @@ Description : Use to store information about products.
 ```sql
 CREATE TABLE product_master (
   Product_no VARCHAR(6) PRIMARY KEY, 
-  Description VARCHAR(50), 
-  Profit_percent NUMBER(5, 2), 
-  Unit_measure VARCHAR(10), 
-  Qty_on_hand NUMBER(8), 
-  Reorder_lvl NUMBER(8), 
-  Sell_price NUMBER(8, 2), 
-  Cost_price NUMBER(8, 2),
+  Description VARCHAR(50) NOT NULL, 
+  Profit_percent NUMBER(5,2) NOT NULL, 
+  Unit_measure VARCHAR(10) NOT NULL, 
+  Qty_on_hand NUMBER(8) NOT NULL, 
+  Reorder_lvl NUMBER(8) NOT NULL, 
+  Sell_price NUMBER(8,2) NOT NULL, 
+  Cost_price NUMBER(8,2) NOT NULL,
   CHECK (Product_no like 'P%')
 );
 ```
 
-_Note : Description size has been increased to 50 from 5 to store entire input._
+_Note : Description size has been increased to 50 from 5 to store entire input. Cannot be 0 is constraint is yet to be implemented (PRs are welcomed)._
 
 **Insertion Queries**
 
