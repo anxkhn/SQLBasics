@@ -1,6 +1,5 @@
 # SQLBasics
-A repo for basic SQL Commands,
-intended for personal use.
+A repo for basic SQL Commands and for storing Lab Assignments.
 
 ### Show Databases
 
