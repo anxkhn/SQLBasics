@@ -99,3 +99,15 @@ CREATE TABLE Orders (
 );
 ```
 
+<br><br><br>
+
+[Client_master](https://github.com/anxkhn/SQLBasics/tree/main/01-Client_master) <br>
+[product_master](https://github.com/anxkhn/SQLBasics/tree/main/02-product_master) <br>
+[salesman_master](https://github.com/anxkhn/SQLBasics/tree/main/03-salesman_master) <br><br>
+[Assignment List](https://github.com/anxkhn/SQLBasics/raw/main/SQL_LAB.pdf)
+<br><br>
+
+### Feel free to refer my personal code repos. 
+
+Create ISSUE if you find any. PULL REQUESTS are welcomed. <br>
+Please use it responsibly. Thank you!
