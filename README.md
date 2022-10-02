@@ -28,7 +28,7 @@ SELECT * FROM table_name;
 ### Drop Databases
 
 ```sql
-DROP DATABASE databasename;
+DROP DATABASE database_name;
 ```
 
 ### Create Table
@@ -58,7 +58,7 @@ ADD column_name datatype;
 ### Alter Table (Drop Column)
 
 ```sql
-DROP DATABASE databasename;
+DROP DATABASE database_name;
 ```
 
 ### Alter Table (Modify Column)
