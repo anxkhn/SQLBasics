@@ -1,0 +1,34 @@
+### Table Name : salesman_master
+
+Description : Use to store information about salesman working in the company.
+<br><br>
+
+**Table Creation**
+
+```sql
+CREATE TABLE salesman_master (
+  Salesman_no VARCHAR(6) PRIMARY KEY, 
+  Salesman_name VARCHAR(20) NOT NULL, 
+  Address1 VARCHAR(30) NOT NULL, 
+  Address2 VARCHAR(30), 
+  City VARCHAR(20), 
+  PinCode VARCHAR(6), 
+  State VARCHAR(20), 
+  Sal_amt NUMBER(8, 2) NOT NULL, 
+  Tgt_to_get NUMBER(6, 2) NOT NULL, 
+  Ytd_sales NUMBER(6, 2) NOT NULL, 
+  Remarks VARCHAR(60), 
+  CHECK (Salesman_no LIKE 'S%')
+);
+```
+
+_Note : Cannot be 0 condition is still not implemented yet._
+
+**Insertion Queries**
+
+```sql
+INSERT INTO salesman_master VALUES ('S001','Kiran','A/14','Worli','Bombay','400002','Maharashtra',3000,100,50,'Good');  
+INSERT INTO salesman_master VALUES ('S002','Manish','65','Nariman','Bombay','400001','Maharashtra',3000,200,100,'Good');     
+INSERT INTO salesman_master VALUES ('S003','Ravi','P-7','Bandra','Bombay','400032','Maharashtra',3000,200,100,'Good');        
+INSERT INTO salesman_master VALUES ('S004','Ashish','A/5','Juhu','Bombay','400044','Maharashtra',3000,200,150,'Good');        
+```
