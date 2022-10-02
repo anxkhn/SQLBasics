@@ -1,4 +1,4 @@
-### Table Name : salesman_master
+### Table Name : Salesman Master
 
 Description : Use to store information about salesman working in the company.
 <br><br>
@@ -22,7 +22,7 @@ CREATE TABLE salesman_master (
 );
 ```
 
-_Note : Cannot be 0 condition is still not implemented yet._
+_Note : Cannot be 0 is constraint is yet to be implemented (PRs are welcomed)._
 
 **Insertion Queries**
 
