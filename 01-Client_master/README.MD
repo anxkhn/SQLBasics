@@ -1,6 +1,6 @@
 ### Table Name : Client Master
 
-*Description* : Use to store information about clients.
+Description : Use to store information about clients.
 <br><br>
 
 **Table Creation**
@@ -21,7 +21,7 @@ CREATE TABLE Client_master (
 
 _Note : The order is City, Pincode and State._
 
-**Table Insertion**
+**Insertion Queries**
 
 ```sql
 INSERT INTO Client_master VALUES ('C001','Ivan Bayross',' ',' ','Bombay',400054,'Maharashtra', 15000);
