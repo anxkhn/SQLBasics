@@ -16,7 +16,7 @@ CREATE TABLE salesman_master (
   State VARCHAR(20), 
   Sal_amt NUMERIC(8, 2) NOT NULL, 
   Tgt_to_get NUMERIC(6, 2) NOT NULL, 
-  Ytd_sales NUMBERIC(6, 2) NOT NULL, 
+  Ytd_sales NUMERIC(6, 2) NOT NULL, 
   Remarks VARCHAR(60), 
   CHECK (Salesman_no LIKE 'S%')
 );
