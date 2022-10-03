@@ -14,9 +14,9 @@ CREATE TABLE salesman_master (
   City VARCHAR(20), 
   PinCode VARCHAR(6), 
   State VARCHAR(20), 
-  Sal_amt NUMBER(8, 2) NOT NULL, 
-  Tgt_to_get NUMBER(6, 2) NOT NULL, 
-  Ytd_sales NUMBER(6, 2) NOT NULL, 
+  Sal_amt NUMERIC(8, 2) NOT NULL, 
+  Tgt_to_get NUMERIC(6, 2) NOT NULL, 
+  Ytd_sales NUMBERIC(6, 2) NOT NULL, 
   Remarks VARCHAR(60), 
   CHECK (Salesman_no LIKE 'S%')
 );
