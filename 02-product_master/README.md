@@ -9,12 +9,12 @@ Description : Use to store information about products.
 CREATE TABLE product_master (
   Product_no VARCHAR(6) PRIMARY KEY, 
   Description VARCHAR(50) NOT NULL, 
-  Profit_percent NUMBER(5,2) NOT NULL, 
+  Profit_percent NUMERIC(5,2) NOT NULL, 
   Unit_measure VARCHAR(10) NOT NULL, 
-  Qty_on_hand NUMBER(8) NOT NULL, 
-  Reorder_lvl NUMBER(8) NOT NULL, 
-  Sell_price NUMBER(8,2) NOT NULL, 
-  Cost_price NUMBER(8,2) NOT NULL,
+  Qty_on_hand NUMERIC(8) NOT NULL, 
+  Reorder_lvl NUMERIC(8) NOT NULL, 
+  Sell_price NUMERIC(8,2) NOT NULL, 
+  Cost_price NUMERIC(8,2) NOT NULL,
   CHECK (Product_no like 'P%')
 );
 ```
