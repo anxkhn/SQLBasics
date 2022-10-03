@@ -12,9 +12,9 @@ CREATE TABLE Client_master (
   Address1 varchar(20), 
   Address2 varchar(20), 
   City varchar(15), 
-  Pincode number(8), 
+  Pincode numeric(8), 
   State varchar(15), 
-  Bal_due number(10, 2),
+  Bal_due numeric(10, 2),
   CHECK (Client_no like 'C%')
 );
 ```
