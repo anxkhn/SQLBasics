@@ -1,5 +1,5 @@
 
-### Table Name : Challan_Header
+### Table Name : Challan Header
 
 Description : Use to store information about challans made for the order.
 <br><br>
