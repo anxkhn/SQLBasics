@@ -63,7 +63,8 @@ ADD column_name datatype;
 ### Alter Table (Drop Column)
 
 ```sql
-DROP DATABASE database_name;
+ALTER TABLE table_name
+DROP COLUMN column_name;
 ```
 
 ### Alter Table (Modify Column)
