@@ -7,13 +7,13 @@ Description : Use to store information about clients.
 
 ```sql
 CREATE TABLE Client_master (
-  Client_no varchar2(6) PRIMARY KEY, 
-  Name varchar2(25) NOT NULL, 
-  Address1 varchar2(20), 
-  Address2 varchar2(20), 
-  City varchar2(15), 
+  Client_no varchar(6) PRIMARY KEY, 
+  Name varchar(25) NOT NULL, 
+  Address1 varchar(20), 
+  Address2 varchar(20), 
+  City varchar(15), 
   Pincode number(8), 
-  State varchar2(15), 
+  State varchar(15), 
   Bal_due number(10, 2),
   CHECK (Client_no like 'C%')
 );
