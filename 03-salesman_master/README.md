@@ -14,15 +14,16 @@ CREATE TABLE salesman_master (
   City VARCHAR(20), 
   PinCode VARCHAR(6), 
   State VARCHAR(20), 
-  Sal_amt NUMERIC(8, 2) NOT NULL, 
-  Tgt_to_get NUMERIC(6, 2) NOT NULL, 
-  Ytd_sales NUMERIC(6, 2) NOT NULL, 
+  Sal_amt NUMERIC(8,2) NOT NULL, 
+  Tgt_to_get NUMERIC(6,2) NOT NULL, 
+  Ytd_sales NUMERIC(6,2) NOT NULL, 
   Remarks VARCHAR(60), 
-  CHECK (Salesman_no LIKE 'S%')
+  CHECK (Salesman_no LIKE 'S%'),
+  CHECK (Sal_amt !=0),
+  CHECK (Tgt_to_get !=0)
 );
 ```
 
-_Note : Cannot be 0 is constraint is yet to be implemented (PRs are welcomed)._
 
 **Insertion Queries**
 
