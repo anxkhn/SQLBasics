@@ -15,7 +15,9 @@ CREATE TABLE product_master (
   Reorder_lvl NUMERIC(8) NOT NULL, 
   Sell_price NUMERIC(8,2) NOT NULL, 
   Cost_price NUMERIC(8,2) NOT NULL,
-  CHECK (Product_no like 'P%')
+  CHECK (Product_no like 'P%'),
+  CHECK (Sell_price !=0),
+  CHECK (Cost_price !=0)
 );
 ```
 
@@ -24,8 +26,8 @@ _Note : Description size has been increased to 50 from 5 to store entire input. 
 **Insertion Queries**
 
 ```sql
-INSERT INTO Product_master VALUES ('P00001','1.44 Floppies',5,'Piece',100,20,525500);
-INSERT INTO Product_master VALUES ('P03453','Monitors',6,'Piece',10,3,1200011200);
+INSERT INTO Product_master VALUES ('P00001','1.44 Floppies',5,'Piece',100,20,525,500);
+INSERT INTO Product_master VALUES ('P03453','Monitors',6,'Piece',10,3,12000,11200);
 INSERT INTO Product_master VALUES ('P06734','Mouse',5,'Piece',20,5,1050,500); 
 INSERT INTO Product_master VALUES ('P07865','1.22 Floppies',5,'Piece',100,20,525,500);
 INSERT INTO Product_master VALUES ('P07868','Keyboards',2,'Piece',10,3,3150,3050); 
