@@ -20,16 +20,27 @@ USE database_name;
 ```
 
 
-### Show Table (query)
-```sql
-SELECT * FROM table_name;
-```
-
 ### Drop Databases
 
 ```sql
 DROP DATABASE database_name;
 ```
+
+### Show Tables
+```sql
+SHOW TABLES;
+```
+
+### Describe Table
+```sql
+DESCRIBE table_name
+```
+
+### Show Table (query)
+```sql
+SELECT * FROM table_name;
+```
+
 
 ### Create Table
 
