@@ -120,7 +120,9 @@ CREATE TABLE Orders (
 
 [Client_master](https://github.com/anxkhn/SQLBasics/tree/main/01-Client_master) <br>
 [product_master](https://github.com/anxkhn/SQLBasics/tree/main/02-product_master) <br>
-[salesman_master](https://github.com/anxkhn/SQLBasics/tree/main/03-salesman_master) <br><br>
+[salesman_master](https://github.com/anxkhn/SQLBasics/tree/main/03-salesman_master) <br>
+[challan_header](https://github.com/anxkhn/SQLBasics/tree/main/06-challan_header) <br>
+[challan_details](https://github.com/anxkhn/SQLBasics/tree/main/07-challan_details) <br><br>
 [Assignment List](https://github.com/anxkhn/SQLBasics/raw/main/SQL_LAB.pdf)
 <br><br>
 
