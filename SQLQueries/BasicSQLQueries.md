@@ -30,7 +30,7 @@ ORDER BY client_no desc ;
 ## Display names starting from 'R'
 ```sql
 SELECT name FROM client_master
-WHERE name LIKE 'r%';
+WHERE name LIKE 'R%';
 ```
 > Note: 'r%' is not case sensitive.
 
