@@ -1,1 +1,1 @@
-- Ninad Naik (ninadnaik10, ninadnaik07@gmail.com)
+- Ninad Naik ([ninadnaik10](https://github.com/ninadnaik10), ninadn@duck.com)
