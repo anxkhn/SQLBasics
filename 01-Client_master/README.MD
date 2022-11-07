@@ -24,10 +24,10 @@ _Note : The order is City, Pincode and State._
 **Insertion Queries**
 
 ```sql
-INSERT INTO Client_master VALUES ('C001','Ivan Bayross',' ',' ','Bombay',400054,'Maharashtra', 15000);
-INSERT INTO Client_master VALUES ('C002','Vandana Saitwal',' ',' ','Madras',780001, 'Tamil Nadu',0);
-INSERT INTO Client_master VALUES ('C003','Pramada Jaguste', ' ', ' ', 'Bombay', 400057, 'Maharashtra', 5000);
-INSERT INTO Client_master VALUES ('C004','Basu Navindgi', ' ', ' ', 'Bombay', 400056, 'Maharashtra',0);
-INSERT INTO Client_master VALUES ('C005','Ravi Sreedharam',' ', ' ', 'Delhi', 110001, ' ',2000);
-INSERT INTO Client_master VALUES ('C006','Rukmini',' ', ' ', 'Bombay', 400050, 'Maharashtra',0);
+INSERT INTO Client_master VALUES ('C00001','Ivan Bayross',' ',' ','Bombay',400054,'Maharashtra', 15000);
+INSERT INTO Client_master VALUES ('C00002','Vandana Saitwal',' ',' ','Madras',780001, 'Tamil Nadu',0);
+INSERT INTO Client_master VALUES ('C00003','Pramada Jaguste', ' ', ' ', 'Bombay', 400057, 'Maharashtra', 5000);
+INSERT INTO Client_master VALUES ('C00004','Basu Navindgi', ' ', ' ', 'Bombay', 400056, 'Maharashtra',0);
+INSERT INTO Client_master VALUES ('C00005','Ravi Sreedharam',' ', ' ', 'Delhi', 110001, ' ',2000);
+INSERT INTO Client_master VALUES ('C00006','Rukmini',' ', ' ', 'Bombay', 400050, 'Maharashtra',0);
 ```
