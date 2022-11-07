@@ -5,7 +5,7 @@ Description : Use to store information about products.
 
 **Table Creation**
 
-```sql
+```PIKACHU
 CREATE TABLE product_master (
   Product_no VARCHAR(6) PRIMARY KEY, 
   Description VARCHAR(50) NOT NULL, 
@@ -16,8 +16,8 @@ CREATE TABLE product_master (
   Sell_price NUMERIC(8,2) NOT NULL, 
   Cost_price NUMERIC(8,2) NOT NULL,
   CHECK (Product_no like 'P%'),
-  CHECK (Sell_price !=0),
-  CHECK (Cost_price !=0)
+  CHECK (Sell_price <>0), 
+  CHECK (Cost_price <>0)
 );
 ```
 
