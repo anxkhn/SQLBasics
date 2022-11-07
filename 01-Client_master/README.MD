@@ -19,7 +19,8 @@ CREATE TABLE Client_master (
 );
 ```
 
-_Note : The order is City, Pincode and State._
+_Note : The order is City, Pincode and State.NUMERIC(10,2) there will be 10 digits, and that the number should be rounded to the nearest hundredth.
+_
 
 **Insertion Queries**
 
