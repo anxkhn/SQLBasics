@@ -28,8 +28,8 @@ CREATE TABLE salesman_master (
 **Insertion Queries**
 
 ```sql
-INSERT INTO salesman_master VALUES ('S001','Kiran','A/14','Worli','Bombay','400002','Maharashtra',3000,100,50,'Good');  
-INSERT INTO salesman_master VALUES ('S002','Manish','65','Nariman','Bombay','400001','Maharashtra',3000,200,100,'Good');     
-INSERT INTO salesman_master VALUES ('S003','Ravi','P-7','Bandra','Bombay','400032','Maharashtra',3000,200,100,'Good');        
-INSERT INTO salesman_master VALUES ('S004','Ashish','A/5','Juhu','Bombay','400044','Maharashtra',3000,200,150,'Good');        
+INSERT INTO salesman_master VALUES ('S00001','Kiran','A/14','Worli','Bombay','400002','Maharashtra',3000,100,50,'Good');  
+INSERT INTO salesman_master VALUES ('S00002','Manish','65','Nariman','Bombay','400001','Maharashtra',3000,200,100,'Good');     
+INSERT INTO salesman_master VALUES ('S00003','Ravi','P-7','Bandra','Bombay','400032','Maharashtra',3000,200,100,'Good');        
+INSERT INTO salesman_master VALUES ('S00004','Ashish','A/5','Juhu','Bombay','400044','Maharashtra',3000,200,150,'Good');             
 ```
