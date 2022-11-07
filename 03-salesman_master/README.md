@@ -19,8 +19,8 @@ CREATE TABLE salesman_master (
   Ytd_sales NUMERIC(6,2) NOT NULL, 
   Remarks VARCHAR(60), 
   CHECK (Salesman_no LIKE 'S%'),
-  CHECK (Sal_amt !=0),
-  CHECK (Tgt_to_get !=0)
+  CHECK (Sal_amt <>0),
+  CHECK (Tgt_to_get <>0)
 );
 ```
 
