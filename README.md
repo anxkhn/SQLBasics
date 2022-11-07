@@ -109,7 +109,7 @@ CREATE TABLE Persons (
 
 ```sql
 CREATE TABLE Orders (
-    OrderID int PRIMARY,
+    OrderID int PRIMARY KEY,
     OrderNumber int NOT NULL,
     ID int,
     FOREIGN KEY (ID) REFERENCES Persons(ID)
