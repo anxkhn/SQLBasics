@@ -5,7 +5,7 @@ Description : Use to store information about products.
 
 **Table Creation**
 
-```PIKACHU
+```sql
 CREATE TABLE product_master (
   Product_no VARCHAR(6) PRIMARY KEY, 
   Description VARCHAR(50) NOT NULL, 
