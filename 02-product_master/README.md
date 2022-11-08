@@ -21,7 +21,7 @@ CREATE TABLE product_master (
 );
 ```
 
-_Note : Description size has been increased to 50 from 5 to store entire input. Cannot be 0 is constraint is yet to be implemented (PRs are welcomed)._
+>Note : Description size has been increased to 50 from 5 to store entire input.
 
 **Insertion Queries**
 
