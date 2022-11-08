@@ -25,6 +25,22 @@ A cursor is a pointer to context area i.e. Context area is controlled by the cur
 1. Implicit cursors.
 2. Explicit cursors.
 
+### Example of implicit cursor
+
+```sql
+DECLARE  var_rows number(2);
+BEGIN
+  UPDATE employees 
+  SET salary = salary + 2000;
+  IF SQL%NOTFOUND THEN
+    dbms_output.put_line('No record updated.');
+  ELSIF SQL%FOUND THEN
+    var_rows := SQL%ROWCOUNT;
+    dbms_output.put_line(var_rows || ' records are updated.');
+  END IF; 
+END;
+```
+
 ### Example of explicit cursor
 
 ```sql
