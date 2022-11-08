@@ -128,6 +128,7 @@ CREATE TABLE Orders (
 
 <br><br><br>
 
+[SQL Queries](https://github.com/anxkhn/SQLBasics/tree/main/00-SQLQueries) <br><br>
 [Client_master](https://github.com/anxkhn/SQLBasics/tree/main/01-Client_master) <br>
 [product_master](https://github.com/anxkhn/SQLBasics/tree/main/02-product_master) <br>
 [salesman_master](https://github.com/anxkhn/SQLBasics/tree/main/03-salesman_master) <br>
