@@ -19,7 +19,7 @@ CREATE TABLE Client_master (
 );
 ```
 
-_Note : The order is City, Pincode and State._
+>Note : The order is City, Pincode and State.
 
 **Insertion Queries**
 
